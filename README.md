@@ -6,6 +6,19 @@ If the filename is an index page, the program renames the file to that of its di
 
 Utilizes ![turndown](https://github.com/mixmark-io/turndown). Not much else.
 
+### Installation
+
+Install and build.
+
+```bash
+$ npm install && npm run build
+```
+
+(Optional) Install globally to use anywhere.
+```bash
+$ npm install -g .
+```
+
 ### Usage
 
 Requires *Node.js* (tested with version 21.6.1)
