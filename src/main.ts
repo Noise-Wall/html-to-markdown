@@ -8,8 +8,8 @@ const turndown = require("turndown");
 
 program
   .name("html2md")
-  .description("Parses HTML to Markdown. For use in Obsidian vaults.")
-  .version("0.0.1")
+  .description("Parses HTML to Markdown. Can also rename Markdown files. For use in Obsidian vaults.")
+  .version("0.0.2")
   .argument("<file>")
 program.option("-u, --underscore", "Replace underscores with whitespaces");
 program.option("-d, --dash", "Replace underscores with whitespaces");
