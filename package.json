@@ -13,6 +13,9 @@
     "turndown": "^7.1.2"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "@types/node": "^20.11.17",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }

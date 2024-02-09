@@ -17,5 +17,5 @@ $ /path/to/project/run.sh $(file)
 Paired with bash command `find`:
 
 ```bash
-$ find ./ -type f -name $(file) -exec sh -c /path/to/project/run.sh '{}' \; 
+$ find ./ -type f -name "$pattern" -exec sh -c /path/to/project/run.sh '{}' \; 
 ```
